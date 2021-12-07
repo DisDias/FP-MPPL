@@ -2778,10 +2778,10 @@ input.num-product::-webkit-inner-spin-button {
 .plh0::-moz-placeholder { color: #999999;}
 .plh0:-ms-input-placeholder { color: #999999;}
 
-.plh1::-webkit-input-placeholder { color: #b2b2b2;}
-.plh1:-moz-placeholder { color: #b2b2b2;}
-.plh1::-moz-placeholder { color: #b2b2b2;}
-.plh1:-ms-input-placeholder { color: #b2b2b2;}
+.plh1::-webkit-input-placeholder { color: #ddd;}
+.plh1:-moz-placeholder { color: #ddd;}
+.plh1::-moz-placeholder { color: #ddd;}
+.plh1:-ms-input-placeholder { color: #ddd;}
 
 .plh2::-webkit-input-placeholder { color: #333;}
 .plh2:-moz-placeholder { color: #333;}
