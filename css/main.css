@@ -2128,7 +2128,7 @@ input.num-product::-webkit-inner-spin-button {
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
-.cl6 {color: white;}
+.cl6 {color: #888;}
 .cl7 {color: white;}
 .cl8 {color: #555;}
 .cl9 {color: #aaa;}
@@ -3099,12 +3099,12 @@ input.num-product::-webkit-inner-spin-button {
 /*---------------------------------------------*/
 .hov-btn3:hover {
   border-color:rgb(232, 78, 54);
-  background-color: white;
-  color: rgb(232, 78, 54);
+  background-color: rgb(232, 78, 54);
+  color: white;
 }
 
 .hov-btn3:hover i {
-  color: rgb(232, 78, 54);
+  color: white;
 }
 
 /*---------------------------------------------*/
