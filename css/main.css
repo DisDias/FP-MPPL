@@ -3203,10 +3203,11 @@ input.num-product::-webkit-inner-spin-button {
   .m-r-0-lg {margin-right: 0;}
   .m-l-15-lg {margin-left: 15px;}
   .m-r-15-lg {margin-right: 15px;}
-
+  
   .p-0-lg {padding: 0;}
   .p-lr-0-lg {padding-left: 0; padding-right: 0;}
-  .p-lr-15-lg {padding-left: 15px; padding-right: 15px;}
+  .p-lr-15-lg {padding-left: 15px; padding-right: 15px;}  
+  .p-lr-40-lg {padding-left: 40px; padding-right: 40px;}
   .p-l-0-lg {padding-left: 0;}
   .p-r-0-lg{padding-right: 0;}
   .p-l-15-lg {padding-left: 15px;}
