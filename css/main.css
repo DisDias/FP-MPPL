@@ -2128,7 +2128,7 @@ input.num-product::-webkit-inner-spin-button {
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
-.cl6 {color: white;}
+.cl6 {color: #888;}
 .cl7 {color: white;}
 .cl8 {color: #555;}
 .cl9 {color: #aaa;}
@@ -2778,10 +2778,10 @@ input.num-product::-webkit-inner-spin-button {
 .plh0::-moz-placeholder { color: #999999;}
 .plh0:-ms-input-placeholder { color: #999999;}
 
-.plh1::-webkit-input-placeholder { color: #b2b2b2;}
-.plh1:-moz-placeholder { color: #b2b2b2;}
-.plh1::-moz-placeholder { color: #b2b2b2;}
-.plh1:-ms-input-placeholder { color: #b2b2b2;}
+.plh1::-webkit-input-placeholder { color: #ddd;}
+.plh1:-moz-placeholder { color: #ddd;}
+.plh1::-moz-placeholder { color: #ddd;}
+.plh1:-ms-input-placeholder { color: #ddd;}
 
 .plh2::-webkit-input-placeholder { color: #333;}
 .plh2:-moz-placeholder { color: #333;}
@@ -3099,12 +3099,12 @@ input.num-product::-webkit-inner-spin-button {
 /*---------------------------------------------*/
 .hov-btn3:hover {
   border-color:rgb(232, 78, 54);
-  background-color: white;
-  color: rgb(232, 78, 54);
+  background-color: rgb(232, 78, 54);
+  color: white;
 }
 
 .hov-btn3:hover i {
-  color: rgb(232, 78, 54);
+  color: white;
 }
 
 /*---------------------------------------------*/
@@ -3127,7 +3127,7 @@ input.num-product::-webkit-inner-spin-button {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(103,117,214,0.8);
+  background: rgba(232, 78, 54,0.8);
   opacity: 0;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
