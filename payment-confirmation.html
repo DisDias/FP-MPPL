@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>About</title>
+	<title>Payment Confirmation</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <!--===============================================================================================-->	
 	<link rel="shortcut icon" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -77,7 +78,7 @@
 								<a href="blog.html">Blog</a>
 							</li>
 
-							<li class="active-menu">
+							<li>
 								<a href="about.html">About</a>
 							</li>
 
@@ -161,7 +162,6 @@
 			<ul class="main-menu-m">
 				<li>
 					<a href="index.html">Home</a>
-					
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
 					</span>
@@ -170,7 +170,7 @@
 				<li>
 					<a href="product.html">Shop</a>
 				</li>
-				
+
 				<li>
 					<a href="blog.html">Blog</a>
 				</li>
@@ -289,64 +289,95 @@
 
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<!-- <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
-			About
+			Payment Confirmation
 		</h2>
-	</section>	
+	</section>	 -->
 
+	<!-- breadcrumb -->
+	<div class="container">
+		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+			<a href="index.html" class="stext-109 cl8 hov-cl2 trans-04">
+				Home
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+
+			<span class="stext-109 cl4">
+				Payment Confirmation
+			</span>
+		</div>
+	</div>
 
 	<!-- Content page -->
-	<section class="bg0 p-t-75 p-b-120">
-		<div class="container">
-			<div class="row p-b-148">
-				<div class="col-md-7 col-lg-8">
-					<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
-						<h3 class="mtext-111 cl2 p-b-16">
-							Our Story
-						</h3>
-
-						<p class="stext-113 cl6 p-b-26">
-							Mizanstore.com adalah toko buku online terpercaya yang menyediakan pilihan buku terbaru, terbaik, dan terlengkap dari semua penerbit di Indonesia. Jenis buku yang dimaksudkan meliputi, novel, kumpulan cerpen, kumpulan puisi, ensiklopedia, komik, board book, dan toy book. Kategorinya meliputi buku Agama & Spiritualitas, buku Bahasa, Pendidikan & Penunjang Pelajaran, buku Biografi & Memoar, buku Anak, buku Impor, buku Ekonomi, Bisnis & Keuangan, buku Fiksi, buku Hiburan, Seni & Budaya, buku Kesehatan & Kecantikan, buku Komik & Novel Grafis, buku Komputer & Teknologi, buku Kuliner, buku Non-Fiksi, buku Parenting & Keluarga, buku Perjalanan, buku Psikologi & Pengembangan Diri, buku Sains & Alam, buku Sastra & Filsafat, buku Sejarah, Sosial, Politik & Hukum, dan masih banyak yang lainnya dengan harga yang menarik.
-						</p>
+	<section class="bg0 p-t-75 p-b-160">
+		<div class="container p-lr-40 p-lr-15-lg">
+			<h3 class="mtext-111 cl2 p-b-16">
+				Payment Confirmation
+			</h3>
+			<form name="paymentConfirmation" method="" action="">
+				<div class="form-group">
+					<label>No Invoice*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="noinv" placeholder="Nomor Pesanan" class="form-control" required maxlength="7" minlength="7">
 					</div>
 				</div>
-
-				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
-					<div class="how-bor1 ">
-						<div class="hov-img0">
-							<img src="images/about1.jpg" alt="IMG">
-						</div>
+				<div class="">
+                    <label>Shipping Method*</label>
+                    <div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
+                    <select class="js-select2" name="shipping" required>
+                        <option value="">Pilih Metode Pembayaran</option>
+                        <option>JNE</option>
+                        <option>Pos Indonesia</option>
+                        <option>Grab Express</option>
+                        <option>Sicepat</option>
+                    </select>
+                    <div class="dropDownSelect2"></div>
+                </div>
+                <div class="form-group">
+					<label>Bank Name*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="bank_name" placeholder="Nama Bank" class="form-control" required>
 					</div>
 				</div>
-			</div>
-			
-			<div class="row">
-				<div class="order-md-2 col-md-7 col-lg-8 p-b-30">
-					<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
-						<h3 class="mtext-111 cl2 p-b-16">
-							Our Mission
-						</h3>
-
-						<p class="stext-113 cl6 p-b-26">
-							Mizan Grup memiliki visi untuk menciptakan masyarakat beradab dan sejahtera dalam bingkai keberagaman yang berorientasi kemajuan. Untuk mencapai visi tersebut, Mizan Grup memiliki misi untuk menyebarluaskan hikmah kepada masyarakat Indonesia dan global melalui konten-konten yang mencerahkan.
-						</p>
-
-						<p class="stext-113 cl6 p-b-26">
-							Mizanstore.com sebagai bagian dari Mizan Grup berkomitmen untuk memberikan pelayanan terbaik, terutama dalam hal mengakses buku bacaan yang berkualitas yang dibutuhkan pembaca. Kami yakin dengan adanya kemudahan akses yang sangat cepat terhadap bacaan berkualitas yang kami sediakan serta pengalaman belanja buku online yang nyaman, dapat meningkatkan minat baca buku yang kini masih minim di Indonesia.
-						</p>
-
+                <div class="form-group">
+					<label>Bank Account Holder Name*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="bank_pemilik" placeholder="Nama Pemilik Akun Bank" class="form-control" required>
 					</div>
 				</div>
-
-				<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
-					<div class="how-bor2">
-						<div class="hov-img0">
-							<img src="images/about2.jpg" alt="IMG">
-						</div>
+                <div class="form-group">
+					<label>Bank Account Number*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="bank_account" placeholder="Nomor Rekening Bank" class="form-control" required>
 					</div>
 				</div>
-			</div>
+                <div class="form-group">
+					<label>Payment Date*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="date" name="tanggal" placeholder="Tanggal Pembayaran" class="form-control" required>
+					</div>
+				</div>
+                <div class="form-group">
+					<label>Payment Amount*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="jumlah" placeholder="Jumlah Pembayaran ex: 150000" class="form-control" required>
+					</div>
+				</div>
+                <div class="form-group">
+					<label>Proof of Payment*</label>
+					<div class="bor8 bg0 m-b-12">
+						<input class="m-t-14 stext-111 cl8 plh3 size-111 p-lr-15" type="file" name="foto" placeholder="Bukti Pembayaran" class="form-control" required>
+					</div>
+				</div>
+                <div class="form-group">
+					<label>Description (optional)</label>
+					<div class="bor8 bg0 m-b-12">
+						<textarea class="stext-111 cl8 plh3 size-110 p-lr-15 p-t-5" name="keterangan" placeholder="Keterangan" class="form-control" required rows="4"></textarea>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-warning float-r">Confirmation</button>
+			</form>
 		</div>
 	</section>	
 	
