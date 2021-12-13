@@ -2083,6 +2083,10 @@ input.num-product::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
+.table-checkout .center {
+  text-align: center;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ Block1 ]*/
 .block1 {
